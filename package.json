@@ -1,0 +1,27 @@
+{
+  "name": "fastdemo",
+  "version": "0.0.0",
+  "description": "make fast demo env use nodejs",
+  "main": "fastdemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinyu198736/fastdemo.git"
+  },
+  "keywords": [
+    "fastdemo"
+  ],
+  "author": "yutou",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies":[{
+     "express":"*",
+     "mustache":"*",
+     "methods":"*",
+     "glob":"*",
+     "coffee-script":"*",
+     "sequelize":"*"
+  }]
+}
