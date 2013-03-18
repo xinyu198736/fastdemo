@@ -2,7 +2,7 @@ fastdemo
 ========
 这是一个多重用途的环境
 
-1.可以快速搭建nodejs的demo环境，不需要写任何nodejs代码即可搭建一个用来制作前端demo的环境，可以使用mustacheplus的include方法来引用子模块嵌套模板。
+### 1.可以快速搭建nodejs的demo环境，不需要写任何nodejs代码即可搭建一个用来制作前端demo的环境，可以使用mustacheplus的include方法来引用子模块嵌套模板。
 
 步骤：
 
@@ -28,9 +28,9 @@ npm install
 ```
 mustacheplus给mustache增加里两个include语法，详情见：https://github.com/xinyu198736/mustache-node-plus
 
-2.这也是一个nodejs基础应用框架。
+### 2.这也是一个nodejs基础应用框架。
 
-主要的基础是rainbowy 一个经过改进的rainbow实现，可以应对比较复杂的web应用架构。文档见：https://github.com/xinyu198736/rainbow
+主要的基础是rainbowy 一个经过改进的rainbow实现，可以应对比较复杂的web应用架构。
 
 其中 controllers 里面是整个应用的核心，你可以把所有的对外接口请求按照文件夹嵌套的格式写在这里，之后会被解析为对应的route。
 
