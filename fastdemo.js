@@ -2,6 +2,7 @@ var express = require('express');
 var rainbow = require('./lib/rainbow.js'); 
 var config = require("./config.js");
 var _mustache = require('./lib/mustache.js');
+var lessmiddle     = require ('less-middleware');
 var app = express();
 _mustache.prefix = __dirname + "/templates/";
 
@@ -17,6 +18,8 @@ app.use(express.session({
   secret : 'yutou',
   maxAge : new Date(Date.now() +30*60*1000)
 }));
+app.use("/assets/css",lessmiddle({src:__dirname+"/assets/css",compress:true})) 
+  app.use ("/assets", express.static(__dirname+"/assets"))
 app.use(express.logger({
   format: ':method :url :status'
 }));

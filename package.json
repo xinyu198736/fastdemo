@@ -22,6 +22,7 @@
      "methods":"*",
      "glob":"*",
      "coffee-script":"*",
-     "sequelize":"*"
+     "sequelize":"*",
+     "less-middleware":"*"
   }]
 }

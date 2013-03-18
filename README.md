@@ -28,21 +28,30 @@ npm install
 ```
 mustacheplus给mustache增加里两个include语法，详情见：https://github.com/xinyu198736/mustache-node-plus
 
-### 2.这也是一个nodejs基础应用框架。
+![mustacheplus语法示例](http://ww4.sinaimg.cn/mw690/6663ae3cjw1e2u30z76czj.jpg)
+### 2.其他特性
 
-主要的基础是rainbowy 一个经过改进的rainbow实现，可以应对比较复杂的web应用架构。
+* 可以直接使用less，会自动编译，你只需要在前端引用css文件，会自动把名字相同的less文件编译到css文件。
 
-其中 controllers 里面是整个应用的核心，你可以把所有的对外接口请求按照文件夹嵌套的格式写在这里，之后会被解析为对应的route。
+* /assets 文件夹里面直接支持静态文件部署
+
+
+### 3.这也是一个nodejs基础应用框架。
+
+* 主要的基础是rainbowy 一个经过改进的rainbow实现，可以应对比较复杂的web应用架构。
+
+* 其中 controllers 里面是整个应用的核心，你可以把所有的对外接口请求按照文件夹嵌套的格式写在这里，之后会被解析为对应的route。
 
 具体可以见文档：https://github.com/xinyu198736/rainbow
 
-filters文件夹 是一些过滤 例如用户检查 参数检查等，主要应用在controllers里面的某些route的前置检查。可重复引用，语法见上面的说明。
+* filters文件夹 是一些过滤 例如用户检查 参数检查等，主要应用在controllers里面的某些route的前置检查。可重复引用，语法见上面的说明。
 
-models 是数据结构定义，本建议基于sequelize来实现数据库操作的ORM，models里放置数据定义文件,见示例
+* models 是数据结构定义，本建议基于sequelize来实现数据库操作的ORM，models里放置数据定义文件,见示例
 
-functions 是功能封装，将所有的数据库操作二次封装于此，供各个controllers调用。
+* functions 是功能封装，将所有的数据库操作二次封装于此，供各个controllers调用。
 
-templates 是模板文件，里面可以放置多种模板，demo里放置mustache模板，其实就是普通的html。
+* templates 是模板文件，里面可以放置多种模板，demo里放置mustache模板，其实就是普通的html。
 
-lib 里面放置一些sdk等东东。
+* lib 里面放置一些sdk等东东。
+
 
