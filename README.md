@@ -25,14 +25,12 @@ npm install
 
 最重要的是你可以使用mustacheplus的include语法来实现文件嵌套：
 
-mustacheplus给mustache增加里两个include语法，详情见：https://github.com/xinyu198736/mustache-node-plus
-
-
 ```
+mustacheplus给mustache增加里两个include语法，详情见：https://github.com/xinyu198736/mustache-node-plus
 
 2.这也是一个nodejs基础应用框架。
 
-主要的基础是rainbowy 一个经过改进的rainbow实现，可以应对比较复杂的web应用架构。
+主要的基础是rainbowy 一个经过改进的rainbow实现，可以应对比较复杂的web应用架构。文档见：https://github.com/xinyu198736/rainbow
 
 其中 controllers 里面是整个应用的核心，你可以把所有的对外接口请求按照文件夹嵌套的格式写在这里，之后会被解析为对应的route。
 
