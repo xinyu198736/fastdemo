@@ -5,7 +5,7 @@ var _mustache = require('./lib/mustache.js');
 var lessmiddle     = require ('less-middleware');
 var app = express();
 _mustache.prefix = __dirname + "/templates/";
-
+_mustache.packto = __dirname + "/pack/";
 app.engine("html", _mustache); 
 //设置模板路径
 app.set('views', __dirname + '/templates');
