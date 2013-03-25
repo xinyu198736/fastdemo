@@ -19,7 +19,7 @@ npm install
 
 安装完成后，修改config.js里的执行端口。
 
-然后执行 node run.js
+然后执行 nodemon fastdemo.js (注意用nodemon来监控文件更改)
 
 这样demo环境就绪啦。
 

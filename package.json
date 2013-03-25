@@ -23,6 +23,7 @@
      "glob":"*",
      "coffee-script":"*",
      "sequelize":"*",
-     "less-middleware":"*"
+     "less-middleware":"*",
+     "nodemon":"*"
   }]
 }
