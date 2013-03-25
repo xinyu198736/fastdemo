@@ -2,6 +2,10 @@ fastdemo
 ========
 这是一个多重用途的环境
 
+### recent change
+
+3-25 增加自动编译模板结果输出，会把页面静态化到_mustache.packto设置的路径中，这样可以在完成后直接把这个文件夹copy给后台开发，其中是完整的html页面。
+
 ### 1.可以快速搭建nodejs的demo环境，不需要写任何nodejs代码即可搭建一个用来制作前端demo的环境，可以使用mustacheplus的include方法来引用子模块嵌套模板。
 
 步骤：
